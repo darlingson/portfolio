@@ -1,7 +1,7 @@
 function Tools() {
     return (<>
         <h1>Tools</h1>
-        <div className="container grid-container">
+        <div id="tools" className="container grid-container">
             <div className="grid-item">
                 <h3>I know the following Languages</h3>
                 <ul className ="list-group">

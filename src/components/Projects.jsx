@@ -1,10 +1,10 @@
 function Projects(){
     return(<>
         <h1>Projects</h1>
-        <div className="container grid-container">
+        <div id="projects" className="container grid-container">
             <div className="grid-item">
                 <ProjectTitle title="Text to Chichewa Sign Language Translator"/>
-                <ProjectDesc desc="This is a Translator which converts text to chichewa sign language"/>
+                <ProjectDesc link="http://text-malawisign.000webhostapp.com/view/home.html" desc="This is a Translator which converts text to chichewa sign language"/>
             </div>
             <div className="grid-item">
                 <ProjectTitle title="Takulandilani App"/>
@@ -30,5 +30,6 @@ function ProjectTitle(props){
 function ProjectDesc(props){
     return(<>
         <p>{props.desc}</p>
+        <p><a href={props.link}>Check it out</a></p>
     </>);
 }
