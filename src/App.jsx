@@ -33,7 +33,7 @@ function App() {
   }
   return (
     <>
-    <div className='container'>
+    <div className='container bg-cyan-300'>
       <NavBar/>
       <Intro/>
       <Tools/>

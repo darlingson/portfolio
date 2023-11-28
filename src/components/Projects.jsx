@@ -31,6 +31,6 @@ function ProjectTitle(props){
 function ProjectDesc(props){
     return(<>
         <p>{props.desc}</p>
-        <p><a href={props.link}>Check it out</a></p>
+        <p className="rose-500"><a href={props.link} className="text-rose-500 hover:bg-rose-700">Check it out</a></p>
     </>);
 }
