@@ -1,6 +1,7 @@
 function Projects(){
     return(<>
         <h1>Projects</h1>
+        <hr class="hr hr-blurry bg-blue-500 p-1" />
         <div id="projects" className="container grid-container">
             <div className="grid-item">
                 <ProjectTitle title="Text to Chichewa Sign Language Translator"/>

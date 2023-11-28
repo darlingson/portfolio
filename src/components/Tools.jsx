@@ -1,8 +1,9 @@
 function Tools() {
     return (<>
         <h1>Tools</h1>
+        <hr class="hr hr-blurry bg-blue-500 p-1" />
         <div id="tools" className="container grid-container">
-            <div className="grid-item">
+            <div className="grid-item bg-sky-500 hover:bg-sky-700 ">
                 <h3>I know the following Languages</h3>
                 <ul className ="list-group">
                     <li className ="list-group-item">Java</li>
@@ -13,17 +14,17 @@ function Tools() {
                     <li className ="list-group-item">Dart</li>
                 </ul>
             </div>
-            <div className="grid-item">
+            <div className="grid-item hover:bg-sky-700 ">
                 <h3>I know the following Frameworks and Libraries</h3>
                 <ul className ="list-group">
-                    <li className ="list-group-item">React</li>
+                    <li className ="list-group-item hover:bg-sky-100 ">React</li>
                     <li className ="list-group-item">Laravel</li>
                     <li className ="list-group-item">Django</li>
                     <li className ="list-group-item">Flask</li>
                     <li className ="list-group-item">Flutter</li>
                 </ul>
             </div>
-            <div className="grid-item">
+            <div className="grid-item bg-sky-500 hover:bg-sky-700 ">
                 <h3>I know the following Tools</h3>
                 <ul className ="list-group">
                     <li className ="list-group-item">Git/Github</li>

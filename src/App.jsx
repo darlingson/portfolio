@@ -36,9 +36,7 @@ function App() {
     <div className='container'>
       <NavBar/>
       <Intro/>
-      <hr class="hr hr-blurry bg-blue-500 p-4" />
       <Tools/>
-      <hr class="hr hr-blurry" />
       <Projects/>
     </div>
     </>
