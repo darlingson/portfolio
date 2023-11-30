@@ -6,6 +6,7 @@ import NavBar from './components/Navbar'
 import Intro from './components/Intro'
 import Tools from './components/Tools'
 import Projects from './components/Projects'
+import Contact from './components/Contact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -38,6 +39,7 @@ function App() {
       <Intro/>
       <Tools/>
       <Projects/>
+      <Contact/>
     </div>
     </>
   )
