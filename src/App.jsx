@@ -7,6 +7,7 @@ import Intro from './components/Intro'
 import Tools from './components/Tools'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import SocialMediaContact from './components/SocialMediaContact'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -40,6 +41,7 @@ function App() {
       <Tools/>
       <Projects/>
       <Contact/>
+      <SocialMediaContact/>
     </div>
     </>
   )
