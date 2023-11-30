@@ -75,9 +75,9 @@ const Contact = () =>{
                                          text-gray-900 bg-gray-50 rounded-lg  
                                          shadow-sm border border-gray-300 " 
                               placeholder="Message..."/> 
-                </div> 
+                </div>
                 <button type="submit" 
-                        className="mt-2 p-2 float-right text-white   
+                        className="mt-2 p-2 text-white   
                                    rounded-lg border-green-600  
                                    bg-green-600 hover:scale-105"> 
                     Send message 
