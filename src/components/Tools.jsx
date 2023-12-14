@@ -2,7 +2,7 @@ function Tools() {
     return (<>
     <div className="mx-auto">
         <h1>Tools</h1>
-        <hr class="hr hr-blurry bg-blue-500 p-1" />
+        <hr class="border-t-2 border-blue-500 my-2" />
         <div id="tools" class=" my-2 container mx-auto grid grid-cols-3 gap-2 justify-center">
   <div class="bg-sky-300 hover:bg-sky-700 border border-gray-200 w-full">
     <h3>I know the following Languages</h3>
