@@ -18,7 +18,7 @@ function App() {
   }, [])
   return (
     <>
-    <div className='bg-cyan-100 grid justify-center'>
+    <div className=' grid justify-center'>
       <NavBar/>
       <Intro/>
       <Tools/>

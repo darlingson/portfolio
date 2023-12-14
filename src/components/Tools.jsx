@@ -1,38 +1,40 @@
 function Tools() {
     return (<>
+    <div className="mx-auto">
         <h1>Tools</h1>
         <hr class="hr hr-blurry bg-blue-500 p-1" />
-        <div id="tools" className="container grid-cols-3 gap-2 flex justify-center">
-            <div className=" bg-sky-300 hover:bg-sky-700 ">
-                <h3>I know the following Languages</h3>
-                <ul className ="list-group">
-                    <li className ="list-group-item">Java</li>
-                    <li className ="list-group-item">Python</li>
-                    <li className ="list-group-item">JavaScript</li>
-                    <li className ="list-group-item">GO</li>
-                    <li className ="list-group-item">Kotling</li>
-                    <li className ="list-group-item">Dart</li>
-                </ul>
-            </div>
-            <div className=" bg-sky-300 hover:bg-sky-700 ">
-                <h3>I know the following Frameworks and Libraries</h3>
-                <ul className ="list-group">
-                    <li className ="list-group-item hover:bg-sky-100 ">React</li>
-                    <li className ="list-group-item">Laravel</li>
-                    <li className ="list-group-item">Django</li>
-                    <li className ="list-group-item">Flask</li>
-                    <li className ="list-group-item">Flutter</li>
-                </ul>
-            </div>
-            <div className=" bg-sky-300 hover:bg-sky-700 ">
-                <h3>I know the following Tools</h3>
-                <ul className ="list-group">
-                    <li className ="list-group-item">Git/Github</li>
-                    <li className ="list-group-item">MySQL/MariaDB</li>
-                    <li className ="list-group-item">Firebase</li>
-                </ul>
-            </div>
-        </div>
+        <div id="tools" class=" my-2 container mx-auto grid grid-cols-3 gap-2 justify-center">
+  <div class="bg-sky-300 hover:bg-sky-700 border border-gray-200 w-full">
+    <h3>I know the following Languages</h3>
+    <ul class="list-none">
+      <li class="border border-gray-200 p-2">Java</li>
+      <li class="border border-gray-200 p-2">Python</li>
+      <li class="border border-gray-200 p-2">JavaScript</li>
+      <li class="border border-gray-200 p-2">GO</li>
+      <li class="border border-gray-200 p-2">Kotlin</li>
+      <li class="border border-gray-200 p-2">Dart</li>
+    </ul>
+  </div>
+  <div class="bg-sky-300 hover:bg-sky-700 border border-gray-200 w-full">
+    <h3>I know the following Frameworks and Libraries</h3>
+    <ul class="list-none">
+      <li class="border border-gray-200 p-2">React</li>
+      <li class="border border-gray-200 p-2">Laravel</li>
+      <li class="border border-gray-200 p-2">Django</li>
+      <li class="border border-gray-200 p-2">Flask</li>
+      <li class="border border-gray-200 p-2">Flutter</li>
+    </ul>
+  </div>
+  <div class="bg-sky-300 hover:bg-sky-700 border border-gray-200 w-full">
+    <h3>I know the following Tools</h3>
+    <ul class="list-none">
+      <li class="border border-gray-200 p-2">Git/Github</li>
+      <li class="border border-gray-200 p-2">MySQL/MariaDB</li>
+      <li class="border border-gray-200 p-2">Firebase</li>
+    </ul>
+  </div>
+</div>
+</div>
     </>);
 }
 export default Tools;
