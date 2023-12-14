@@ -14,28 +14,11 @@ function App() {
 
 
   useEffect(() => {
-    const intro = document.getElementById("intro");
-    const tools = document.getElementById("tools");
-    const projects = document.getElementById("projects");
-    
-    document.getElementById("introBtn").addEventListener("click", scrollToIntro);
-    document.getElementById("toolsBtn").addEventListener("click", scrollToTools);
-    document.getElementById("projectsBtn").addEventListener("click", scrollToProjects);
-  
+ 
   }, [])
-
-  function scrollToIntro() {
-    intro.scrollIntoView(true);
-  }
-  function scrollToTools() {
-    tools.scrollIntoView(true);
-  }
-  function scrollToProjects() {
-    projects.scrollIntoView(true);
-  }
   return (
     <>
-    <div className='container bg-cyan-100 '>
+    <div className='container bg-cyan-100 grid justify-center'>
       <NavBar/>
       <Intro/>
       <Tools/>
