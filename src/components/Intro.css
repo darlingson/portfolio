@@ -1,0 +1,15 @@
+@keyframes typewriter {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  .typewriter {
+    width: 0;
+    overflow: hidden;
+    border-right: .15em solid orange; /* cursor */
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typewriter 4s steps(30, end), blink-caret .75s step-end infinite;
+  }
+  
