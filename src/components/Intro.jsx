@@ -1,15 +1,11 @@
 const Intro = (params) => {
     return(<>
-        <div id="intro" className="container">
-            <div className="row">
-                <div className="col-sm-4" >
-                    <img src="/12511668-kg.jpg" style ={{height: "300px"}}/>
-                </div>
-                <div className="col-sm-8">
-                    <div class="d-flex align-content-center flex-wrap" style ={{height: "300px"}}>
-                        <p>Hello, My name is Darlingson Makuwila. System Developer and FullStack Web Developer.</p>
-                    </div>
-                </div>
+        <div id="intro" class="container mx-auto flex">
+            <div class="w-1/2">
+                <img class="h-auto max-w-full" src="/12511668-kg.jpg" alt="Darlingson Makuwila"/>
+            </div>
+            <div class="w-1/2 flex items-center">
+                <p>Hello, My name is Darlingson Makuwila. System Developer and FullStack Web Developer.</p>
             </div>
         </div>
     </>);
