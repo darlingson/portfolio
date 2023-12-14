@@ -12,7 +12,7 @@ const SocialMediaContact =()=>{
                 </a>
             </div>
             <div>
-                <a href="github.com/darlingson">
+                <a href="https://github.com/darlingson">
                     <img src="/github-logo_icon-icons.com_73546.png" className="w-100 h-70"/>
                 </a>
             </div>
@@ -22,7 +22,7 @@ const SocialMediaContact =()=>{
                 </a>
             </div>
             <div>
-                <a>
+                <a href="https://medium.com/@dmakuwila">
                     <img src="/medium_logo_icon_259364.png" className="w-100 h-70"/>
                 </a>
             </div>
