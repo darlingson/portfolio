@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 const Intro = () => {
     return (
         <div id="intro" className="container mx-auto flex flex-col md:flex-row">
-            <div className="w-full md:w-1/2">
+            <div className="w-full md:w-1/2 pt-5">
                 <img className="h-auto max-w-full" src="/12511668-kg.jpg" alt="Darlingson Makuwila"/>
             </div>
             <div className="w-full md:w-1/2 flex items-center">
