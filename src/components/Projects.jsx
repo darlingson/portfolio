@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-
+import React, { useState, useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -27,22 +26,41 @@ function Projects() {
 }
 
 function Project(props) {
+    const [isHovered, setIsHovered] = useState(false);
+
     useEffect(() => {
         AOS.init();
     }, []);
 
+    const handleMouseEnter = () => {
+        setIsHovered(true);
+    };
+
+    const handleMouseLeave = () => {
+        setIsHovered(false);
+    };
+
     return (
-        <div data-aos="fade-right" className="bg-black hover:bg-gray-800 border border-gray-600 w-full p-2">
+        <div
+            data-aos="fade-right"
+            className="relative bg-black hover:bg-gray-800 border border-gray-600 w-full p-2"
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+        >
             <ProjectTitle title={props.title} />
             <ProjectDesc desc={props.desc} link={props.link} />
+            {isHovered && (
+                <div className="absolute top-0 left-0 w-full">
+                    {/* Separate container for the image with its own height */}
+                    <img src="/chikulungaanalytics.jpg" alt="Project Image" className="w-full object-cover" style={{ height: '200px' }} />
+                </div>
+            )}
         </div>
     );
 }
 
 function ProjectTitle(props) {
-    return (
-        <h3 className="font-bold text-white">{props.title}</h3>
-    );
+    return <h3 className="font-bold text-white">{props.title}</h3>;
 }
 
 function ProjectDesc(props) {
