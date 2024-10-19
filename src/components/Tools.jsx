@@ -16,6 +16,8 @@ const Tools = () => {
                     <h3 className="text-white">I know the following Languages</h3>
                     <ul className="list-none">
                         <li className="border border-gray-600 p-2 text-white">Java</li>
+                        <li className="border border-gray-600 p-2 text-white">C#</li>
+                        <li className="border border-gray-600 p-2 text-white">PHP</li>
                         <li className="border border-gray-600 p-2 text-white">Python</li>
                         <li className="border border-gray-600 p-2 text-white">JavaScript</li>
                         <li className="border border-gray-600 p-2 text-white">GO</li>
@@ -27,6 +29,8 @@ const Tools = () => {
                     <h3 className="text-white">I know the following Frameworks and Libraries</h3>
                     <ul className="list-none">
                         <li className="border border-gray-600 p-2 text-white">React</li>
+                        <li className="border border-gray-600 p-2 text-white">ASP.Net</li>
+                        <li className="border border-gray-600 p-2 text-white">Tailwind CSS</li>
                         <li className="border border-gray-600 p-2 text-white">Laravel</li>
                         <li className="border border-gray-600 p-2 text-white">Django</li>
                         <li className="border border-gray-600 p-2 text-white">Flask</li>
@@ -38,6 +42,7 @@ const Tools = () => {
                     <ul className="list-none">
                         <li className="border border-gray-600 p-2 text-white">Git/Github</li>
                         <li className="border border-gray-600 p-2 text-white">MySQL/MariaDB</li>
+                        <li className="border border-gray-600 p-2 text-white">PostgreSQL</li>
                         <li className="border border-gray-600 p-2 text-white">Firebase</li>
                     </ul>
                 </div>
